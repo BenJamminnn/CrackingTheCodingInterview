@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468D2AD919B16B1000C3C1AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DD7EB119A691B80001D6BF /* XCTest.framework */; };
+		468D2ADA19B16B1000C3C1AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DD7E9A19A652520001D6BF /* Foundation.framework */; };
+		468D2AE219B16B1000C3C1AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 468D2AE019B16B1000C3C1AE /* InfoPlist.strings */; };
+		468D2AE419B16B1000C3C1AE /* CrackingTheCodingInterview_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468D2AE319B16B1000C3C1AE /* CrackingTheCodingInterview_Tests.m */; };
+		468D2AEC19B16C2100C3C1AE /* BinaryTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 468D2AEB19B16C2100C3C1AE /* BinaryTreeTests.m */; };
+		468D2AEE19B16F4000C3C1AE /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7EA919A652670001D6BF /* BinaryTree.m */; };
+		468D2AEF19B16F5500C3C1AE /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7EBB19A7BB6A0001D6BF /* Queue.m */; };
+		468D2AF019B16F5E00C3C1AE /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7EAD19A652B40001D6BF /* TreeNode.m */; };
+		468D2AF119B16F5E00C3C1AE /* AVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 469BA8E919A97E5600BCD22A /* AVLTree.m */; };
+		468D2AF219B16F5E00C3C1AE /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7EBE19A7BE450001D6BF /* Stack.m */; };
 		469BA8EA19A97E5600BCD22A /* AVLTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 469BA8E919A97E5600BCD22A /* AVLTree.m */; };
 		46DD7E9B19A652520001D6BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46DD7E9A19A652520001D6BF /* Foundation.framework */; };
 		46DD7E9E19A652520001D6BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7E9D19A652520001D6BF /* main.m */; };
@@ -17,6 +27,16 @@
 		46DD7EBF19A7BE450001D6BF /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7EBE19A7BE450001D6BF /* Stack.m */; };
 		46DD7EC219A7E9300001D6BF /* TestCases.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD7EC119A7E9300001D6BF /* TestCases.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		468D2AE619B16B1000C3C1AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46DD7E8F19A652520001D6BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DD7E9619A652520001D6BF;
+			remoteInfo = CrackingTheCodingInterview;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		46DD7E9519A652520001D6BF /* CopyFiles */ = {
@@ -32,6 +52,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		468D2AD819B16B0F00C3C1AE /* CrackingTheCodingInterview Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrackingTheCodingInterview Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		468D2ADB19B16B1000C3C1AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		468D2ADF19B16B1000C3C1AE /* CrackingTheCodingInterview Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrackingTheCodingInterview Tests-Info.plist"; sourceTree = "<group>"; };
+		468D2AE119B16B1000C3C1AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		468D2AE319B16B1000C3C1AE /* CrackingTheCodingInterview_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrackingTheCodingInterview_Tests.m; sourceTree = "<group>"; };
+		468D2AE519B16B1000C3C1AE /* CrackingTheCodingInterview Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrackingTheCodingInterview Tests-Prefix.pch"; sourceTree = "<group>"; };
+		468D2AEB19B16C2100C3C1AE /* BinaryTreeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeTests.m; sourceTree = "<group>"; };
 		469BA8E819A97E5600BCD22A /* AVLTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVLTree.h; sourceTree = "<group>"; };
 		469BA8E919A97E5600BCD22A /* AVLTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVLTree.m; sourceTree = "<group>"; };
 		46DD7E9719A652520001D6BF /* CrackingTheCodingInterview */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrackingTheCodingInterview; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +80,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		468D2AD519B16B0F00C3C1AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468D2AD919B16B1000C3C1AE /* XCTest.framework in Frameworks */,
+				468D2ADA19B16B1000C3C1AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46DD7E9419A652520001D6BF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,10 +100,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		468D2ADD19B16B1000C3C1AE /* CrackingTheCodingInterview Tests */ = {
+			isa = PBXGroup;
+			children = (
+				468D2AE319B16B1000C3C1AE /* CrackingTheCodingInterview_Tests.m */,
+				468D2AEB19B16C2100C3C1AE /* BinaryTreeTests.m */,
+				468D2ADE19B16B1000C3C1AE /* Supporting Files */,
+			);
+			path = "CrackingTheCodingInterview Tests";
+			sourceTree = "<group>";
+		};
+		468D2ADE19B16B1000C3C1AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				468D2ADF19B16B1000C3C1AE /* CrackingTheCodingInterview Tests-Info.plist */,
+				468D2AE019B16B1000C3C1AE /* InfoPlist.strings */,
+				468D2AE519B16B1000C3C1AE /* CrackingTheCodingInterview Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		46DD7E8E19A652520001D6BF = {
 			isa = PBXGroup;
 			children = (
 				46DD7E9C19A652520001D6BF /* CrackingTheCodingInterview */,
+				468D2ADD19B16B1000C3C1AE /* CrackingTheCodingInterview Tests */,
 				46DD7E9919A652520001D6BF /* Frameworks */,
 				46DD7E9819A652520001D6BF /* Products */,
 			);
@@ -77,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				46DD7E9719A652520001D6BF /* CrackingTheCodingInterview */,
+				468D2AD819B16B0F00C3C1AE /* CrackingTheCodingInterview Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +144,7 @@
 			children = (
 				46DD7EB119A691B80001D6BF /* XCTest.framework */,
 				46DD7E9A19A652520001D6BF /* Foundation.framework */,
+				468D2ADB19B16B1000C3C1AE /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -139,6 +198,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		468D2AD719B16B0F00C3C1AE /* CrackingTheCodingInterview Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468D2AE819B16B1000C3C1AE /* Build configuration list for PBXNativeTarget "CrackingTheCodingInterview Tests" */;
+			buildPhases = (
+				468D2AD419B16B0F00C3C1AE /* Sources */,
+				468D2AD519B16B0F00C3C1AE /* Frameworks */,
+				468D2AD619B16B0F00C3C1AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				468D2AE719B16B1000C3C1AE /* PBXTargetDependency */,
+			);
+			name = "CrackingTheCodingInterview Tests";
+			productName = "CrackingTheCodingInterview Tests";
+			productReference = 468D2AD819B16B0F00C3C1AE /* CrackingTheCodingInterview Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		46DD7E9619A652520001D6BF /* CrackingTheCodingInterview */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46DD7EA519A652530001D6BF /* Build configuration list for PBXNativeTarget "CrackingTheCodingInterview" */;
@@ -164,6 +241,11 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Ben Gabay";
+				TargetAttributes = {
+					468D2AD719B16B0F00C3C1AE = {
+						TestTargetID = 46DD7E9619A652520001D6BF;
+					};
+				};
 			};
 			buildConfigurationList = 46DD7E9219A652520001D6BF /* Build configuration list for PBXProject "CrackingTheCodingInterview" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -178,11 +260,37 @@
 			projectRoot = "";
 			targets = (
 				46DD7E9619A652520001D6BF /* CrackingTheCodingInterview */,
+				468D2AD719B16B0F00C3C1AE /* CrackingTheCodingInterview Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		468D2AD619B16B0F00C3C1AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468D2AE219B16B1000C3C1AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		468D2AD419B16B0F00C3C1AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468D2AF019B16F5E00C3C1AE /* TreeNode.m in Sources */,
+				468D2AF219B16F5E00C3C1AE /* Stack.m in Sources */,
+				468D2AEC19B16C2100C3C1AE /* BinaryTreeTests.m in Sources */,
+				468D2AEE19B16F4000C3C1AE /* BinaryTree.m in Sources */,
+				468D2AF119B16F5E00C3C1AE /* AVLTree.m in Sources */,
+				468D2AE419B16B1000C3C1AE /* CrackingTheCodingInterview_Tests.m in Sources */,
+				468D2AEF19B16F5500C3C1AE /* Queue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		46DD7E9319A652520001D6BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,7 +307,65 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		468D2AE719B16B1000C3C1AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46DD7E9619A652520001D6BF /* CrackingTheCodingInterview */;
+			targetProxy = 468D2AE619B16B1000C3C1AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		468D2AE019B16B1000C3C1AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				468D2AE119B16B1000C3C1AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		468D2AE919B16B1000C3C1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackingTheCodingInterview Tests/CrackingTheCodingInterview Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrackingTheCodingInterview Tests/CrackingTheCodingInterview Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		468D2AEA19B16B1000C3C1AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrackingTheCodingInterview Tests/CrackingTheCodingInterview Tests-Prefix.pch";
+				INFOPLIST_FILE = "CrackingTheCodingInterview Tests/CrackingTheCodingInterview Tests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 		46DD7EA319A652520001D6BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -299,6 +465,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		468D2AE819B16B1000C3C1AE /* Build configuration list for PBXNativeTarget "CrackingTheCodingInterview Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468D2AE919B16B1000C3C1AE /* Debug */,
+				468D2AEA19B16B1000C3C1AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		46DD7E9219A652520001D6BF /* Build configuration list for PBXProject "CrackingTheCodingInterview" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
